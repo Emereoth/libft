@@ -3,18 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_trijoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acottier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: acottier <acottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/29 19:04:38 by acottier          #+#    #+#             */
-/*   Updated: 2016/04/07 11:04:53 by acottier         ###   ########.fr       */
+/*   Updated: 2018/06/19 10:46:53 by acottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-
 #include <stdio.h>
-static	int		find_length(char	*s1, char	*s2, char	*s3)
+
+static	int		find_length(char *s1, char *s2, char *s3)
 {
 	int		res;
 
@@ -24,7 +23,7 @@ static	int		find_length(char	*s1, char	*s2, char	*s3)
 	return (res);
 }
 
-static	char	*ft_check(char	*s1, char	*s2, char	*s3)
+static	char	*ft_check(char *s1, char *s2, char *s3)
 {
 	if (s1 && s2 && s2[0] == '/' && !s2[1] && s1[ft_strlen(s1) - 1] == '/')
 		return (ft_strjoin(s1, s3));

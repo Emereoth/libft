@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_puttab.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acottier <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: acottier <acottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 18:08:44 by acottier          #+#    #+#             */
-/*   Updated: 2016/03/23 15:15:48 by acottier         ###   ########.fr       */
+/*   Updated: 2018/06/19 10:43:18 by acottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void		ft_puttab(char	**tab)
+void		ft_puttab(char **tab)
 {
 	int		i;
 
