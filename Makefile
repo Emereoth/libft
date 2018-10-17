@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: acottier <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: acottier <acottier@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 13:55:41 by acottier          #+#    #+#              #
-#    Updated: 2016/04/08 10:37:46 by acottier         ###   ########.fr        #
+#    Updated: 2018/10/17 16:41:15 by acottier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -88,7 +88,8 @@ SRC_NAMES = ft_strclr.c \
 			ft_putstr_err.c \
 			ft_trijoin.c \
 			ft_doublestr.c \
-			ft_strndup.c
+			ft_strndup.c \
+			ft_to_hex.c
 
 OBJ_NAMES = $(SRC_NAMES:.c=.o)
 INC_NAMES = libft.h
