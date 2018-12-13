@@ -6,7 +6,7 @@
 /*   By: acottier <acottier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/28 11:00:42 by acottier          #+#    #+#             */
-/*   Updated: 2018/10/17 16:31:09 by acottier         ###   ########.fr       */
+/*   Updated: 2018/12/13 11:57:30 by acottier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,6 +101,9 @@ char				*ft_strdupchr(const char *s1, char c);
 char				**ft_newtab(int size);
 void				ft_putstr_err(char *str);
 char				*ft_trijoin(char	*s1, char	*s2, char	*s3);
-char				*ft_to_hex(int	n);
+char				*ft_to_hex(uint64_t	n);
+char				*ft_to_hex_32(uint32_t	n);
+void				ft_putnbr_large(uint64_t);
+void				ft_putnbr_uns(unsigned int n);
 
 #endif

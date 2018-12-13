@@ -6,7 +6,7 @@
 #    By: acottier <acottier@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 13:55:41 by acottier          #+#    #+#              #
-#    Updated: 2018/10/17 16:41:15 by acottier         ###   ########.fr        #
+#    Updated: 2018/12/13 09:59:59 by acottier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -89,7 +89,8 @@ SRC_NAMES = ft_strclr.c \
 			ft_trijoin.c \
 			ft_doublestr.c \
 			ft_strndup.c \
-			ft_to_hex.c
+			ft_to_hex.c \
+			ft_putnbr_large.c
 
 OBJ_NAMES = $(SRC_NAMES:.c=.o)
 INC_NAMES = libft.h
